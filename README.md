@@ -2,6 +2,7 @@
 
 Projeto desenvolvido na Imersão Dev Alura + Google
 
+
 🚀 Sobre o Projeto:
 
 Este projeto foi criado durante a Imersão Dev da Alura, realizada em parceria com a Google.
