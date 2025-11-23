@@ -21,20 +21,20 @@ A interface segue elementos característicos do design Google, sendo intergrada 
 
 * Interações suaves;
 
-* Navegação direta e intuitiva;
+* Navegação direta e intuitiva.
 
 
 📚 Aprendizados:
 
-Durante esse projeto, pude desenvolver:
+* Durante esse projeto, pude desenvolver:
 
-Compreensão mais sólida de estruturação de páginas;
+* Compreensão mais sólida de estruturação de páginas;
 
-Noções importantes de layout e responsividade;
+* Noções importantes de layout e responsividade;
 
-Boas práticas visuais inspiradas no estilo Google;
+* Boas práticas visuais inspiradas no estilo Google;
 
-Primeiros passos reais produzindo algo do zero com ajuda da Intligência Artificial
+* Primeiros passos reais produzindo algo do zero com ajuda da Intligência Artificial.
 
 
 Por:
