@@ -1,0 +1,296 @@
+[
+  {
+    "nome": "Google Pixel 10",
+    "descricao": "Mais rápido com o Tensor G5. Fotos ainda melhores, com detalhes impressionantes em qualquer luz. IA avançada com o Gemini integrada.",
+    "link": "https://store.google.com/us/product/pixel_10?hl=en-US",
+    "imagem": "https://lh3.googleusercontent.com/W9MEE0NsR2GxAG4StHfCrJSgeXo2LkKuH9d8TQt3CEfhhjPqWQppW2uxWYBiThQqcc1hg7kXUoLhMr4_XXqmRwQEDZK37NRET4o=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Smartphones"
+  },
+  {
+    "nome": "Google Pixel 10 Pro",
+    "descricao": "Versão Pro do Pixel 10 com câmera telefoto, tela maior e desempenho extra para usuários exigentes.",
+    "link": "https://store.google.com/us/product/pixel_10_pro?hl=en-US",
+    "imagem": "https://lh3.googleusercontent.com/HW94atxd_5B_nl4a4zjCHXgR4brybPOYzbb65_e8oN4Kg7sLawbS1JwD6tay1BFh01Yoz5P-W98jVUOf8hveXP0lKw6sa4VLYJo=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Smartphones"
+  },
+  {
+    "nome": "Google Pixel Fold",
+    "descricao": "Smartphone dobrável com tela ampla, ideal para produtividade e entretenimento.",
+    "link": "https://store.google.com/us/product/pixel_fold?hl=en-US",
+    "imagem": "https://lh3.googleusercontent.com/xkS5bP2-9ZOPGwKesHKMyomiicr_t6D34_hxrQEXakbYqP-QigkSupl05pl3ufXwyM5agir-HZ2jVH75KrBPmcV7I1P70nifles=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Smartphones"
+  },
+  {
+    "nome": "Google Pixel Tablet",
+    "descricao": "Tablet leve com suporte a dock de carregamento e integração total com Google Assistente.",
+    "link": "https://store.google.com/us/product/pixel_tablet?hl=en-US",
+    "imagem": "https://lh3.googleusercontent.com/jqG57F4H7YKZSSiJJI38eLVd4WQFqf1zXAzv3ItMtpUs9wY2e7VXzmUjp0msdNnVCg7SDoz-JkapFT-tZsDqi_UN0gHsl9L0D60=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Smartphones"
+  },
+  {
+    "nome": "Google Pixel Watch 4",
+    "descricao": "Relógio inteligente com Wear OS, monitoramento de saúde Fitbit e design sofisticado.",
+    "link": "https://store.google.com/us/product/pixel_watch_4",
+    "imagem": "https://lh3.googleusercontent.com/C6H8QmR4cey3g1ZPRZQixxSe6cXXJya1G6t06UJXXC_JNu3Q8k01Hw60ADVhEceq2QJwAljZF8V1KNR6-2gbR2NuVu2DodkIAbtF=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Wearables"
+  },
+  {
+    "nome": "Google Pixel Watch 3",
+    "descricao": "Relógio anterior da linha Pixel Watch, com boa autonomia e todas as funções básicas de saúde.",
+    "link": "https://store.google.com/us/product/pixel_watch_3",
+    "imagem": "https://lh3.googleusercontent.com/IZaRACxSwYhThlQmKjLSMdIbVoAMJhjGDMMoDa6eKpONGkaZSheWfFoU5grV6HEaNxy1QGfbu3ajW6bV1UMvWLiNXUROcyF5zQ=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Wearables"
+  },
+  {
+    "nome": "Google Pixel Watch 2",
+    "descricao": "Relógio inteligente leve com integração Google e Fitbit.",
+    "link": "https://store.google.com/us/product/pixel_watch_2",
+    "imagem": "https://lh3.googleusercontent.com/DYbwkNGMQHMewk2NySjZ_D87_-mo2D-B2UoYgV8iP2xNxzaayl09ZU39hFNtbhpy365ZNiVnECygbNM8Vkn7hPpQi_BVT7SzHTVA=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Wearables"
+  },
+  {
+    "nome": "Google Pixel Buds A-Series",
+    "descricao": "Versão mais acessível dos Pixel Buds com excelente som e integração com Assistente.",
+    "link": "https://store.google.com/us/product/pixel_buds_a_series",
+    "imagem": "https://lh3.googleusercontent.com/sZDRmkrx9XBVK28qUwM1o6LT5mcY64_y0o7b-gH43nsKv9OspOq7wBO9V1raZPs-kV5dfyWf6qlLLkoMJmGXP8KLgdcwIRPaEhU=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Áudio"
+  },
+  {
+    "nome": "Google Pixel Buds Pro 2",
+    "descricao": "Segunda geração dos Buds Pro, com melhorias de bateria e qualidade de som.",
+    "link": "https://store.google.com/us/product/pixel_buds_pro_2",
+    "imagem": "https://lh3.googleusercontent.com/khwOSxq0u2I0bpRBKChRTW5291w2NhENVJofnP68LvaE_iB-b2iLwooJ_gW9Rv8o4IYLDSjh8TagUzgmcL7LYBA8wtyWLIER_tjM=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Áudio"
+  },
+  {
+    "nome": "Google Nest Hub (2ª geração)",
+    "descricao": "Tela inteligente de 7″ para controlar a casa, ver vídeos, fotos e assistir à sua rotina com o Google Assistente.",
+    "link": "https://store.google.com/us/product/nest_hub_2nd_gen",
+    "imagem": "https://lh3.googleusercontent.com/CJszRttsY828Ef1clGcQ6w5YcnDk11VXlzE1ndNtGi6Ax_WOEhoo9S6S1YsBx-wXEJIpDgLp3LKIeQypKihf9iipP8ZOUSHFr3fW=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Casa Conectada"
+  },
+  {
+    "nome": "Google Nest Hub Max",
+    "descricao": "Tela grande com câmera para videochamadas, controle de casa e entretenimento.",
+    "link": "https://store.google.com/us/product/nest_hub_max",
+    "imagem": "https://lh3.googleusercontent.com/bd4xvcXAjVai2NkP2RIEf7-WjEef6OkUfPMWOBw8qdr5TVCPF86LDr7lJacjeKE8O4YAxdNtvb3VRiOtZuoQ1ctSLg8W5h6k2oM=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Casa Conectada"
+  },
+  {
+    "nome": "Google Nest Mini",
+    "descricao": "Alto-falante inteligente compacto com Google Assistente e som surpreendente para o tamanho.",
+    "link": "https://store.google.com/us/product/nest_mini",
+    "imagem": "https://lh3.googleusercontent.com/Ld44CM6BTxyWj5QfNgsdDTUMkPedqpBeMSOd1zV5lihpknUg9F16AhKdoleN-77wjz-8Opj52-F6n9og8cuVqJFCJ9XLFnePhpc=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Áudio"
+  },
+  {
+    "nome": "Google Nest Audio",
+    "descricao": "Alto-falante inteligente com som rico e profundo, ideal para música e controle da casa.",
+    "link": "https://store.google.com/us/product/nest_audio",
+    "imagem": "https://lh3.googleusercontent.com/mjOJ15bV3K2SwMi524PQBqHuc1Jm892yOq4HraP3VJoMqxhcztdc3c6sFhMBfbwmuBc_APoKLn8MyI4nxlRmdTFRKj2jNdf5lA=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Áudio"
+  },
+  {
+    "nome": "Google Nest Cam Indoor (3ª geração)",
+    "descricao": "Câmera de segurança para dentro de casa com alta resolução e integração com o Google Home.",
+    "link": "https://store.google.com/us/product/nest_cam_indoor_3rd_gen",
+    "imagem": "https://lh3.googleusercontent.com/WYgNNklodKIT_n_KT3upi_yuY90Y3DnzoXl1dgB0EqcKGsVTEwvkcrDmypvadGnVrIaILMM5ZKNCXM9Bz7Th_srY8bbNskfENKM=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Casa Conectada"
+  },
+  {
+    "nome": "Google Nest Cam Outdoor (2ª geração)",
+    "descricao": "Câmera de segurança para ambientes externos, resistente às intempéries e com visão clara.",
+    "link": "https://store.google.com/us/product/nest_cam_outdoor_2nd_gen",
+    "imagem": "https://lh3.googleusercontent.com/PoHGbKWAoXAizdPP2C-Q8stHdl2e4Rh9hNGsOfjrK5Nd0MkOLakWNwkHWh4JCcFozxuKVW8mc9HEQWRPEPhHXKwHnOK4KS-69Q=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Casa Conectada"
+  },
+  {
+    "nome": "Google Nest Doorbell (sem fio)",
+    "descricao": "Campainha inteligente sem fio com vídeo HD, detecção de pessoas e notificações inteligentes.",
+    "link": "https://store.google.com/us/product/nest_doorbell_battery",
+    "imagem": "https://lh3.googleusercontent.com/8I3UhsqktlaWfnaa3gMCXW7h_olrmlhJsv-ZYC5vqG2TYAIGxPvWvY3X9mZaEj2t702ZFz9V2KtlgnRYQzh-HZcfk4ZJ8x45VPo=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Casa Conectada"
+  },
+  {
+    "nome": "Google Nest Thermostat (4ª geração)",
+    "descricao": "Termostato inteligente que aprende suas rotinas para economizar energia e manter o conforto.",
+    "link": "https://store.google.com/us/product/nest_learning_thermostat_4th_gen",
+    "imagem": "https://lh3.googleusercontent.com/dQCI3eexkmz5s2c_CStwPWlv6882LK9CoYzOdS3DqhEeUbFH5hb7L46YXOuz738MkZVwGjctCGr_-Wuw6CMdd9YphOmO3jujdbE=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Casa Conectada"
+  },
+  {
+    "nome": "Google Nest Thermostat",
+    "descricao": "Termostato inteligente simples, eficiente e fácil de controlar com o app Google Home.",
+    "link": "https://store.google.com/us/product/nest_thermostat",
+    "imagem": "https://lh3.googleusercontent.com/tBwGhSOJh8Qmk3YheYP0StO4Cx3zSDzQIh15yLr8jDEMmU8vXKtGfg86h69kfEL2FmnyA5VfpTpJT1O2zBT9gzM2xjugYKjkNg=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Casa Conectada"
+  },
+  {
+    "nome": "Google Nest Wifi Pro",
+    "descricao": "Sistema de roteador mesh para cobertura Wi-Fi rápida e estável por toda a casa, com integração ao Google Home.",
+    "link": "https://store.google.com/us/product/nest_wifi_pro",
+    "imagem": "https://lh3.googleusercontent.com/5bsmxjycrEjsjoA3qoEfL2A1U2Ewj-Ha123j97mjk63O7qoQXWUOWKlq9m0ADBWQoRv4bkQb5CTJzZxjsWAyb9iHcAJ6mycVFnCX=s0",
+    "categoria": "Casa Conectada"
+  },
+  {
+    "nome": "Google Pixel Stand (2ª geração)",
+    "descricao": "Base de carregamento sem fio para Pixel que também ativa funções extras de assistente e visualização.",
+    "link": "https://store.google.com/us/product/pixel_stand_2nd_gen",
+    "imagem": "https://www.pixelstore.cz/cdn/shop/products/GooglePixelStand3.png?v=1671184393&width=1445",
+    "categoria": "Acessórios"
+  },
+  {
+    "nome": "Fitbit Charge 6",
+    "descricao": "Pulseira fitness com sensores avançados, monitoramento de saúde e integração com Google Fit.",
+    "link": "https://store.google.com/us/product/fitbit_charge_6",
+    "imagem": "https://www.getgear.in/cdn/shop/files/01_charge6-porcelain-device-3qt.png?v=1696329814",
+    "categoria": "Wearables"
+  },
+  {
+    "nome": "Google Pixel 9",
+    "descricao": "O smartphone carro-chefe da sua geração, combinando IA e desempenho superior.",
+    "link": "https://store.google.com/product/pixel_9",
+    "imagem": "https://www.pixelstore.cz/cdn/shop/files/unnamed_2_29b732ce-356a-4ae7-bb9e-7653ff4bf8e7.png?v=1723731825&width=823",
+    "categoria": "Smartphones"
+  },
+  {
+    "nome": "Google Pixel 9 Pro",
+    "descricao": "Experiência premium com câmeras avançadas e recursos Pro, impulsionado por Tensor G4.",
+    "link": "https://store.google.com/product/pixel_9_pro",
+    "imagem": "https://www.pixelstore.cz/cdn/shop/files/unnamed_3_1d789535-b256-4d2a-8e06-95dbef290600.png?v=1723731725&width=823",
+    "categoria": "Smartphones"
+  },
+  {
+    "nome": "Google Pixel 8",
+    "descricao": "Design elegante e IA para o dia a dia, com recursos fotográficos aprimorados.",
+    "link": "https://store.google.com/product/pixel_8",
+    "imagem": "https://www.telstra.com.au/content/dam/tcom/devices/mobile/mhdwhst-pxl8/obsidian/front.png",
+    "categoria": "Smartphones"
+  },
+  {
+    "nome": "Google Pixel 8 Pro",
+    "descricao": "O celular inteligente da Google, com a melhor câmera e chip Tensor G3.",
+    "link": "https://store.google.com/product/pixel_8_pro",
+    "imagem": "https://media.secure-mobiles.com/product-images/GP8P128WH2.1.responsive-lg.centre.png",
+    "categoria": "Smartphones"
+  },
+  {
+    "nome": "Google Pixel 8a",
+    "descricao": "O poder do Pixel a um preço acessível. Ótimas fotos e bateria duradoura.",
+    "link": "https://store.google.com/product/pixel_8a",
+    "imagem": "https://static.androidplanet.nl/orca/products/25331/google-pixel-8a.png",
+    "categoria": "Smartphones"
+  },
+  {
+    "nome": "Google Pixel 7a",
+    "descricao": "Excelente custo-benefício com a performance do Pixel, câmeras incríveis e segurança robusta.",
+    "link": "https://store.google.com/product/pixel_7a",
+    "imagem": "https://content.presspage.com/uploads/633/f560a24d-88da-446a-9746-31ac89eb5d9e/1920_gp-ln-23-007-pixel7a-6-48-master-full-uk-blue-240323.png?10000",
+    "categoria": "Smartphones"
+  },
+  {
+    "nome": "Google Pixel Watch (1ª Geração)",
+    "descricao": "O primeiro smartwatch da Google, combinando Wear OS e tecnologia Fitbit para monitoramento de saúde.",
+    "link": "https://store.google.com/product/pixel_watch_1gen",
+    "imagem": "https://lh3.googleusercontent.com/Cw6b3YR37-7Jf96fsQScUPWWpnc4iFVcwdEGy0bqeFSGI4iM0mbajwUPgBO937X4VMwDDzMzWZDodieoJaGYIpHVDvPdYNbmIs85=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Wearables"
+  },
+  {
+    "nome": "Google Pixel Buds Pro",
+    "descricao": "Fones de ouvido com Cancelamento Ativo de Ruído e Áudio Espacial para imersão total.",
+    "link": "https://store.google.com/product/pixel_buds_pro",
+    "imagem": "https://www.att.com/catalog/en/idse/Google/Google%20Pixel%20Buds%20Pro/Black-hero-zoom.png",
+    "categoria": "Áudio"
+  },
+  {
+    "nome": "Chromecast com Google TV (4K)",
+    "descricao": "Transmita conteúdo em 4K HDR e desfrute do Google TV para organizar seus filmes e séries.",
+    "link": "https://store.google.com/product/chromecast_google_tv_4k",
+    "imagem": "https://www.pixelstore.cz/cdn/shop/products/Chromecast4KSky_5cd8f14e-00d8-4441-9e56-9a1bc8f57734.png?v=1671622207&width=823",
+    "categoria": "Casa Conectada"
+  },
+  {
+    "nome": "Chromecast com Google TV (HD)",
+    "descricao": "Streaming rápido e fluido em resolução HD com o controle remoto de voz.",
+    "link": "https://store.google.com/product/chromecast_google_tv_hd",
+    "imagem": "https://www.pixelstore.cz/cdn/shop/products/ChromecastHDSnow.png?v=1669834820&width=823",
+    "categoria": "Casa Conectada"
+  },
+  {
+    "nome": "Google Nest Cam com Holofote",
+    "descricao": "Câmera de segurança externa com iluminação poderosa ativada por movimento.",
+    "link": "https://store.google.com/product/nest_cam_floodlight",
+    "imagem": "https://lh3.googleusercontent.com/aQe5lv8whOOr3NmkFJgGcLlGVR-wcBURLH24gXx8b30TNfg-22QlF-RTM-oSpomexA-oWu5ZICIDgYn5s7h92IQpT1KKKt7RqJYX=s0",
+    "categoria": "Casa Conectada"
+  },
+  {
+    "nome": "Google Nest Doorbell (Com fio)",
+    "descricao": "Campainha inteligente com vídeo HD contínuo e notificações instantâneas.",
+    "link": "https://store.google.com/product/nest_doorbell_wired",
+    "imagem": "https://lh3.googleusercontent.com/8I3UhsqktlaWfnaa3gMCXW7h_olrmlhJsv-ZYC5vqG2TYAIGxPvWvY3X9mZaEj2t702ZFz9V2KtlgnRYQzh-HZcfk4ZJ8x45VPo=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Casa Conectada"
+  },
+  {
+    "nome": "Google Nest Learning Thermostat (3ª Geração)",
+    "descricao": "Termostato inteligente que aprende suas preferências de temperatura e economiza energia.",
+    "link": "https://store.google.com/product/nest_learning_thermostat_3rdgen",
+    "imagem": "https://lh3.googleusercontent.com/omwijrWMMbAuTY_7dxQcXSQuxjIqfCqKY_UqjM_fNaaBrx0n4EynoGaESxiARVU1I7jr9XFQkbiMilHJGG5mXrr6oN7yukYNYfwM=s6000-w6000-e365-rw-v0-nu",
+    "categoria": "Casa Conectada"
+  },
+  {
+    "nome": "Google Nest Wifi Router (Modelo original)",
+    "descricao": "Sistema Wi-Fi Mesh escalável para cobertura completa da casa.",
+    "link": "https://store.google.com/product/nest_wifi_router_orig",
+    "imagem": "https://lh3.googleusercontent.com/HpBntj3DqZxfvLpsiZmxoywl7N3UID3y_qTFXeJvvfipps9whfPQkLAqJkgTGG8g0UwEF2Qe8vf4ledqd_jvVgZHHbip3hxzu6g=s0",
+    "categoria": "Casa Conectada"
+  },
+  {
+    "nome": "Google Nest Protect (2ª Geração, a bateria)",
+    "descricao": "Alarme de fumaça e monóxido de carbono inteligente, fala com você e envia alertas para seu celular.",
+    "link": "https://store.google.com/product/nest_protect_battery",
+    "imagem": "https://media-www.canadiantire.ca/product/fixing/hardware/home-safety/0463501/nest-wi-fi-smoke-carbon-monoxide-detector-battery-494a8f1c-ccd0-446c-b908-2eb88b3c2dab.png",
+    "categoria": "Casa Conectada"
+  },
+  {
+    "nome": "Google Nest Protect (2ª Geração, com fio)",
+    "descricao": "Versão com fio do alarme inteligente Nest Protect, ideal para instalação permanente.",
+    "link": "https://store.google.com/product/nest_protect_wired",
+    "imagem": "https://www.domoticalia.es/5323-thickbox_default/smoke-alarm-and-co-nest-protect.jpg",
+    "categoria": "Casa Conectada"
+  },
+  {
+    "nome": "Fitbit Sense 2",
+    "descricao": "Smartwatch focado em estresse e saúde cardíaca, com ferramentas avançadas de monitoramento.",
+    "link": "https://store.google.com/product/fitbit_sense_2",
+    "imagem": "https://cdn.arstechnica.net/wp-content/uploads/2022/08/Fitbit_Sense_2_3Qtr_Core_BlueMist_GoogleWallet_RGB_72dpi_NS.png",
+    "categoria": "Wearables"
+  },
+  {
+    "nome": "Fitbit Versa 4",
+    "descricao": "Monitoramento de condicionamento físico com GPS integrado e bateria de longa duração.",
+    "link": "https://store.google.com/product/fitbit_versa_4",
+    "imagem": "https://merchandising-assets.bestbuy.ca/bltc8653f66842bff7f/bltd85221cb00021f8c/6303d4a9a2fb716e3cda5eae/wt-20220824-feature-fg-fitbit-versa4-xs.png?width=150p&quality=80&auto=webp",
+    "categoria": "Wearables"
+  },
+  {
+    "nome": "Fitbit Luxe",
+    "descricao": "Monitor de bem-estar elegante e minimalista com rastreamento de atividade e sono.",
+    "link": "https://store.google.com/product/fitbit_luxe",
+    "imagem": "https://carlosvassan.com/wp-content/uploads/2021/04/fitbit-luxe-5.png",
+    "categoria": "Wearables"
+  },
+  {
+    "nome": "Fitbit Inspire 3",
+    "descricao": "Rastreador de fitness fácil de usar, com monitoramento contínuo de frequência cardíaca.",
+    "link": "https://store.google.com/product/fitbit_inspire_3",
+    "imagem": "https://images.frandroid.com/wp-content/uploads/2022/08/fitbit-inspire-3-frandroid-2022.png",
+    "categoria": "Wearables"
+  },
+  {
+    "nome": "Fitbit Ace 3",
+    "descricao": "Rastreador de atividades divertido projetado especificamente para crianças a partir de 6 anos.",
+    "link": "https://store.google.com/product/fitbit_ace_3",
+    "imagem": "https://eftm.com/wp-content/uploads/2021/03/Fitbit-Ace-3-Blue-Green.png",
+    "categoria": "Wearables"
+  }
+]

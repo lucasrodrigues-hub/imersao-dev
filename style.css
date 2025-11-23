@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Cores da paleta Google */
+    --google-blue: #4285F4;
+    --google-text: #202124;
+    --google-text-secondary: #5f6368;
+    --google-bg: #FFFFFF;
+    --google-border: #DADCE0;
+}
+
+/* Tema Escuro - Preferência do Sistema */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --google-text: #e8eaed;
+        --google-text-secondary: #9aa0a6;
+        --google-bg: #202124;
+        --google-border: #5f6368;
+    }
+}
+
+/* Tema Escuro - Ativado pelo botão (classe .dark-mode) */
+body.dark-mode {
+    --google-text: #e8eaed;
+    --google-text-secondary: #9aa0a6;
+    --google-bg: #202124;
+    --google-border: #5f6368;
+}
+
+body {
+    background: #F8F9FA; /* Um cinza bem claro para o fundo */
+    color: var(--google-text);
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Animação suave */
+}
+
+/* Ajustes específicos para o tema escuro que não usam variáveis */
+body.dark-mode {
+    background: #121212;
+}
+
+/* Cabeçalho */
+header {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: var(--google-bg);
+    z-index: 100;
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease; /* Animação suave */
+    border-bottom: 1px solid var(--google-border);
+}
+
+header.sticky {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-google {
+    height: 30px;
+    width: auto;
+}
+
+header h1 {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--google-text-secondary);
+}
+
+/* Botão de Tema */
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--google-text-secondary);
+    transition: background-color 0.2s, color 0.2s;
+}
+
+#theme-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+body.dark-mode #theme-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Lógica para mostrar o ícone correto */
+#theme-toggle .moon { display: none; }
+#theme-toggle .sun { display: block; }
+
+body.dark-mode #theme-toggle .moon { display: block; }
+body.dark-mode #theme-toggle .sun { display: none; }
+
+
+/* Barra de busca */
+.search-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--google-text-secondary);
+}
+
+.search-box-wrapper {
+    position: relative; /* Garante que o ícone seja posicionado em relação a este wrapper */
+}
+
+#barra-pesquisa {
+    /* Estado Normal */
+    width: 30rem;
+    height: 46px;
+    padding-left: 3rem;
+    max-width: 100%;
+    background-color: #F1F3F4;
+    border: 1px solid #DADCE0;
+    border-radius: 2rem;
+    font-size: 1rem;
+    color: var(--secondary-color);
+    font-family: "Quicksand", sans-serif;
+    box-shadow: 0 1px 4px rgba(60,64,67,0.08);
+    transition: all 0.3s ease; /* Animação suave para todas as propriedades */
+}
+
+#barra-pesquisa::placeholder {
+    color: var(--google-text-secondary);
+    font-weight: 400;
+}
+
+#barra-pesquisa:hover {
+    background-color: #e8eaed;
+}
+body.dark-mode #barra-pesquisa:hover {
+    background-color: #3c4043;
+}
+
+#barra-pesquisa:focus {
+    width: 34rem;
+    background-color: #fff;
+    border-color: rgba(223, 225, 229, 0);
+    /* Uma sombra mais sutil e elevada, sem usar transform */
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    outline: none;
+}
+body.dark-mode #barra-pesquisa {
+    background-color: #303134;
+    border-color: #5f6368;
+}
+body.dark-mode #barra-pesquisa:focus {
+    background-color: #202124;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Filtros de Categoria */
+.category-filters {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 2rem;
+    flex-wrap: wrap; /* Permite que os filtros quebrem a linha em telas menores */
+}
+
+.filter-chip {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid var(--google-border);
+    background-color: var(--google-bg);
+    color: var(--google-text-secondary);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Animação suave */
+}
+
+.filter-chip:hover, .filter-chip.active {
+    background-color: #e8f0fe; /* Azul claro do Google */
+    color: #1967d2; /* Azul escuro do Google */
+    border-color: #d2e3fc;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* Layout de Grade Responsiva para os Cards */
+.card-container {
+    display: grid;
+    /* Desktop: 3 colunas */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+/* Estilo dos Cards */
+.card {
+    background: var(--google-bg);
+    border: 1px solid var(--google-border);
+    border-radius: 16px; /* Borda suave */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.3s ease; /* Animação suave */
+    animation: fadeIn 0.5s ease-in-out forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card-image-container {
+    width: 100%;
+    height: 250px; /* Altura fixa para o contêiner da imagem */
+    padding: 16px; /* Espaçamento para a imagem não colar nas bordas */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F9FA;
+    transition: background-color 0.3s ease; /* Animação suave */
+}
+body.dark-mode .card-image-container {
+    background-color: #303134;
+}
+
+.card-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ajusta a imagem dentro do contêiner */
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .card-img {
+    transform: scale(1.05);
+}
+
+.card-content {
+    padding: 24px; /* Espaçamento interno */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-top: 1px solid var(--google-border);
+}
+
+.card h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: var(--google-text);
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--google-text-secondary);
+    flex-grow: 1;
+    margin-bottom: 16px;
+}
+
+.card-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #fff;
+    color: #1a73e8;
+    border: 1.5px solid #dadce0;
+    border-radius: 20px;
+    font-family: 'Inter', 'Quicksand', 'Roboto', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 28px 10px 20px;
+    box-shadow: 0 1px 4px rgba(60,64,67,0.08);
+    cursor: pointer;
+    transition: background 0.2s, border-color 0.2s, box-shadow 0.2s, color 0.2s;
+    text-decoration: none;
+    outline: none;
+    align-self: flex-start; /* Garante que o botão não estique */
+}
+
+.card-button:hover,
+.card-button:focus {
+    background: #e8f0fe;
+    border-color: #1a73e8;
+    box-shadow: 0 2px 8px rgba(60,64,67,0.12);
+    color: #1a73e8;
+}
+
+/* Estilos do botão "Saiba mais" para o Tema Escuro */
+body.dark-mode .card-button {
+    background: var(--google-bg);
+    color: #8ab4f8; /* Azul mais claro para melhor contraste */
+    border-color: var(--google-border);
+}
+
+body.dark-mode .card-button:hover,
+body.dark-mode .card-button:focus {
+    background: rgba(138, 180, 248, 0.1); /* Fundo azul bem sutil */
+    border-color: #8ab4f8;
+}
+
+/* Ícone de seta para o botão */
+.card-button::after {
+    content: '→';
+    font-size: 1.1em;
+    transition: transform 0.2s ease-in-out;
+}
+
+.mensagem-nao-encontrado {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--google-text-secondary);
+    padding: 4rem 0;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #f2f2f2;
+    color: var(--google-text-secondary);
+    font-size: 14px;
+    margin-top: 4rem;
+    transition: background-color 0.3s ease; /* Animação suave */
+}
+body.dark-mode .footer {
+    background-color: #171717;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.footer-top {
+    padding: 15px 0;
+    border-bottom: 1px solid var(--google-border);
+}
+
+.footer-bottom {
+    padding: 15px 0;
+    display: flex;
+    gap: 24px;
+}
+
+.logo-google-small {
+    height: 10px; /* Tamanho menor para o logo no rodapé */
+    margin-right: 10px; /* Espaçamento entre o logo e o texto */
+}
+
+.footer-bottom a {
+    color: var(--google-text-secondary);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+/* Tablet: 2 colunas */
+@media (max-width: 992px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #barra-pesquisa {
+        width: 300px;
+    }
+}
+
+/* Mobile: 1 coluna */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    #barra-pesquisa {
+        width: 100%;
+        max-width: 480px;
+    }
+    main {
+        padding: 1.5rem 1rem;
+    }
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+    .footer-content {
+        padding: 0 1rem;
+    }
+}
+
+/* Ajustes para o header em mobile para evitar quebra de linha do h1 */
+@media (max-width: 768px) {
+    .header-content h1 {
+        font-size: 1.2rem; /* Reduz o tamanho da fonte para caber melhor */
+        white-space: nowrap; /* Tenta manter em uma linha, mas pode quebrar se não houver espaço */
+        overflow: hidden;
+        text-overflow: ellipsis; /* Adiciona reticências se o texto for muito longo */
+    }
+}
