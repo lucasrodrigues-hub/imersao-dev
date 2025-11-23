@@ -41,4 +41,4 @@ A interface segue elementos característicos do design Google, sendo intergrada 
 Por:
 
 Lucas Rodrigues de Moura
-🔗 LinkedIn
+[🔗 LinkedIn](https://www.linkedin.com/in/lucas-rodrigues-de-moura/)
