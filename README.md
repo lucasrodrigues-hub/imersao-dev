@@ -23,6 +23,15 @@ A interface segue elementos característicos do design Google, sendo intergrada 
 * Interações suaves;
 
 * Navegação direta e intuitiva.
+Funcionalidades:
+
+Busca estilizada inspirada no Google;
+
+Interface totalmente responsiva;
+
+Carregamento rápido;
+
+Visual limpo inspirado na empresa Google.
 
 
 📚 Aprendizados:
