@@ -9,19 +9,20 @@ A proposta é reproduzir uma interface inspirada no visual dos produtos Google: 
 
 O foco aqui é praticar e evoluir minhas habilidades iniciais em desenvolvimento web, construindo uma página clara, responsiva e agradável de navegar. Esse projeto representa o começo da minha jornada no mundo da programação.
 
-A interface segue elementos característicos do design Google:
+A interface segue elementos característicos do design Google, sendo intergrada com:
 
-Layout simples e funcional;
+* Layout simples e funcional;
 
-Tipografia moderna;
+* Tipografia moderna;
 
-Cards organizados em grade;
+* Cards organizados em grade;
 
-Espaçamento limpo;
+* Espaçamento limpo;
 
-Interações suaves;
+* Interações suaves;
 
-Navegação direta e intuitiva;
+* Navegação direta e intuitiva;
+
 
 📚 Aprendizados:
 
@@ -34,6 +35,7 @@ Noções importantes de layout e responsividade;
 Boas práticas visuais inspiradas no estilo Google;
 
 Primeiros passos reais produzindo algo do zero com ajuda da Intligência Artificial
+
 
 Por:
 
